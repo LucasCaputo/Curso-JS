@@ -1,0 +1,55 @@
+body{
+
+    background: rgb(51, 51, 95);
+    font: normal 15pt helvetica;
+}
+
+header{
+
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(39, 218, 241, 0.521);
+    
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+#hrs{
+    font-size: 15px;
+    color: blue;
+    font-weight: bolder;
+    line-height: 200%;
+    border: 1px solid blue;  
+}
+
+#button{    
+    background: #361e5f;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;   
+    cursor: pointer;
+    transition: backgroud 0.5s;   
+}
+
+#button:hover{
+    background: rgba(24, 24, 34, 0.897);
+    font-size: 16px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

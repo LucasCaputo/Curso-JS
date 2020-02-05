@@ -1,0 +1,58 @@
+body{
+
+    background: rgb(51, 51, 95);
+    font: normal 15pt Arial;
+}
+
+header{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #ffF;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(223, 232, 233, 0.521);
+    border-radius: 2px;
+    padding: 30px 20px;     
+}
+
+#nascimento, #txtano, #sexo{       
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 32px;
+    font-size: 17px;
+    color: rgb(102, 102, 102);
+    border: 0;
+    border-bottom: 1px solid rgb(22, 22, 22);   
+}
+
+#botao {
+    width: 100%;
+    border: 0;
+    margin-top: 15px;
+    background: #361e5f;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;   
+    cursor: pointer;
+    transition: backgroud 0.5s;
+}
+
+#botao:hover{
+    background: #6931ca;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
