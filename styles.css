@@ -1,0 +1,194 @@
+    @import "https://fonts.googleapis.com/css?family=Kanit|Shadows+Into+Light&display=swap";
+    
+    :root{
+        --color-font: #7cf82e;                         
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;           
+        text-decoration: none;
+        -webkit-font-smoothing:antialiased;
+    }
+
+    body{
+        background: #171b1a;
+        color: white;
+        font-family: 'Kanit', sans-serif; 
+    }
+
+    header{
+        padding: 10px;
+        border-bottom: 1px solid var(--color-font);
+        background: rgba(0, 0, 0, 0.1);            
+        text-align: center;
+        line-height: 50px;
+                         
+    }  
+
+    header div a {
+        color: white;
+        padding: 1%;                        
+    }    
+
+    .links{           
+        float: inline-start;   
+        font-family: 'Kanit', sans-serif;   
+        font-size: 18px; 
+        text-align: center; 
+        color: white;
+                  
+    }
+
+    .links a:hover{
+        color: var(--color-font);
+        transition: color 400ms;
+    } 
+    
+    a:-webkit-any-link {
+        color: white;      
+    }
+
+    .Logo{            
+        padding-left: 10%;
+        float: left;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 35px;        
+    }
+    
+    .Logo a:hover{
+        color: var(--color-font);
+        transition: color 400ms;
+    } 
+
+    #perfil{
+        text-align: center;
+        padding: 30px 30px 3px 30px;
+
+    }
+
+    #perfil img{        
+        max-width:350px;       
+        border-radius: 50%;
+        width: auto;        
+        border: 3px solid var(--color-font);
+        margin-bottom: 12px;        
+    }
+
+    #perfil h1{
+        font-size: 42px;
+        line-height: 52px;
+        font-family: 'Shadows Into Light', cursive;        
+    }
+
+    #perfil h2{
+        font-size: 24px;
+        line-height: 34px;        
+        opacity: 0.8; 
+    }
+
+    #perfil p{
+        padding-top: 3px;   
+        font-size: 22px;   
+        opacity: 0.9;
+    }
+
+    #perfil p strong {
+        color: var(--color-font);
+    }
+
+    #links-footer a{
+        border-bottom: 2px solid var(--color-font);        
+    }
+
+
+    /* ===================Cards===============*/
+
+    .cards{
+        padding: 0px 90px 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        max-width: 350px;
+        margin: 0 auto;  
+        margin-top: 20px;
+        border-bottom: 1px solid rgba(119, 118, 118, 0.288);
+        background: rgba(0, 0, 0, 0.1);       
+    }
+
+    .card-container img{
+        cursor: pointer;
+        width: 100%;
+    }
+    .card-content,
+    .card-info{
+        padding: 24px;
+        text-align: center;
+        font-size: 18px;        
+    }
+
+    .card-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .patrocinio{
+        border-bottom: 1px solid rgba(119, 118, 118, 0.288);
+        background: rgba(0, 0, 0, 0.1);  
+        filter: brightness(90%); 
+        padding: 5px 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    /*===================modal===================*/
+
+    .modal-overlay{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .modal{
+        background-color: black;
+        width: 70%;
+        height: 70%;
+        margin: 5vh auto;
+        position: relative;
+    }
+
+    .modal .close-modal{
+        color: black;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        cursor: pointer;
+    }
+
+    /*===============Modal Ativo ===================*/
+
+    .modal-overlay.active{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 15%;
+    }
+
+    
+
+
+    
+
+       
